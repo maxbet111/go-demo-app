@@ -11,4 +11,3 @@
 | **Multi-container** | "Modify the deployment to include a Fluentd sidecar container for log collection." | Реализует паттерн Sidecar для централизованного сбора логов инфраструктуры. | [app-multicontainer.yaml](./yaml/app-multicontainer.yaml) |
 | **Resource Limits** | "Apply CPU/Memory limits and requests to the pod to prevent cluster-wide OOM kills." | Оптимизирует затраты на кластер и предотвращает влияние «шумных соседей». | [app-resources.yaml](./yaml/app-resources.yaml) |
 | **Secret Injection** | "Inject DB credentials into the pod via environment variables using a K8s Secret." | Повышает безопасность, разделяя конфиденциальные данные и код приложения. | [app-secret-env.yaml](./yaml/app-secret-env.yaml) |
-test
